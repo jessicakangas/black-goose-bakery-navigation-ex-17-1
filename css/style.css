@@ -70,9 +70,17 @@ nav a {
   display: block;
   padding: 0.5em 1em;
   text-decoration: none;
-  border: 1px solid;
+  border: 1px solid #333;
   border-radius: 6px;
   margin: 0.5em;
+
+}
+
+/*hover+focus*/
+nav a: :hover,
+nav a: :focus {
+  background:#eee; 
+
 }
 
 
