@@ -66,6 +66,10 @@ nav ul {
   justify-content: center;
 }
 
+nav {
+  padding: 1em 0;
+}
+
 nav a {
   display: block;
   padding: 0.5em 1em;
@@ -76,12 +80,12 @@ nav a {
 
 }
 
-/*hover+focus*/
-nav a: :hover,
-nav a: :focus {
-  background:#eee; 
-
+/* hover + focus */
+nav a:hover,
+nav a:focus {
+  background: #eee;
 }
+
 
 
 
